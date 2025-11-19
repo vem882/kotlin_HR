@@ -1,3 +1,4 @@
+# Generic
 # Compiled class file
 *.class
 
@@ -19,9 +20,90 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs
 hs_err_pid*
 replay_pid*
 
-# Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
+# Kotlin Gradle plugin data
 .kotlin/
+
+# -----------------------------
+# Android / Android Studio
+# -----------------------------
+
+# Gradle
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+
+# Keep code styles if you want to share them (uncomment to track)
+/# !.idea/codeStyles/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Keystore files (sensitive)
+*.jks
+*.keystore
+
+# Signed APKs / bundles
+*.apk
+*.ap_
+*.aab
+
+# Built application files
+outputs/
+captures/
+bin/
+generated/
+.out/
+
+# NDK/Native
+.externalNativeBuild/
+.cxx/
+obj/
+ndk-build/
+*.so
+
+# Build system files
+.build/
+.buildSrc/
+
+# ProGuard/R8 files
+proguard/
+mapping/
+
+# Firebase / Google services (may contain secrets)
+google-services.json
+google-services-info.plist
+
+# IntelliJ
+out/
+*.iml
+.idea_modules/
+
+# OS generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Crash and heap dumps
+*.hprof
+
+# Temporary files
+*.tmp
+*~
+*.swp
+
+# Editor backups
+.vscode/
+*.code-workspace
+
+# Misc
+.replay_pid*
